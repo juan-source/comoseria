@@ -35,7 +35,52 @@ body{
     margin-left: 20px;
     font-family: 'Open Sans', sans-serif;
 }
-
 header nav a:hover{
     color: white;
 }
+.img-section{
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    background: linear-gradient(rgb(0,0,0,0.5)0%, rgb(0,0,0, 0.5)100% ), url(../images/img-dark.jpg);
+    min-height: 500px;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items:flex-end ;
+}
+main .container{
+    margin: 0 70px;
+    margin-bottom: 100px;
+}
+.textos-img h2{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.textos-img p{    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    max-width: 90%;
+    margin-bottom: 20px;
+}
+.buttons-img button{
+    color: #AAA;
+    background: rgb(0,0,0,0.5);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-right: 20px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.buttons-img button i{
+    margin-right: 20px;
+}
+.buttons-img button:hover{
+    color: black;
+    background: white;
+}
+
+
